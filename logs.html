@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lambert's blog | Home</title>
+  <title>Lambert's blog | blog list</title>
   <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -61,12 +61,18 @@
           <p><a class="btn btn-secondary" href="/software-week-2.html" role="button">Software week 2... &raquo;</a></p>
           <p><a class="btn btn-secondary" href="#" role="button">View Week Three &raquo;</a></p>
 
-
+          <form action="/html/tags/html_form_tag_action.cfm" method="post">
+            <textarea name="comments" id="comments" style="width:96%;height:90px;padding:2%;font-size:1.2em;background-color:rgb(151, 150, 144);">
+            Give a review about the blog... 
+            </textarea>
+            <input type="submit" value="Submit">
+            </form>
       </div>
 
       <hr>
 
     </div> <!-- /container -->
+
   </main>
 
   <footer class="container">
